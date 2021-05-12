@@ -1,0 +1,15 @@
+.van-transition {
+  transition-timing-function: ease
+}
+
+/* 进入和离开被激活 */
+.van-fade-enter-active,
+.van-fade-leave-active {
+  transition-property: opacity
+}
+
+/* 进入和离开 */
+.van-fade-enter,
+.van-fade-leave-to {
+  opacity: 0
+}
